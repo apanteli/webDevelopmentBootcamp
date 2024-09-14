@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "203.Postman",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}

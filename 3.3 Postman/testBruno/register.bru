@@ -1,0 +1,19 @@
+meta {
+  name: register
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:3000/register
+  body: formUrlEncoded
+  auth: none
+}
+
+body:form-urlencoded {
+  name: andreas
+}
+
+body:multipart-form {
+  : 
+}
