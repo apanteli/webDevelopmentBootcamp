@@ -1,0 +1,18 @@
+meta {
+  name: Filter activity
+  type: http
+  seq: 3
+}
+
+get {
+  url: https://bored-api.appbrewery.com/filter?participants=2&type=cooking
+  body: none
+  auth: none
+}
+
+params:query {
+  participants: 2
+  type: cooking
+  ~type: social
+  ~type: education
+}
